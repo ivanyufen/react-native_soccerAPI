@@ -71,7 +71,6 @@ class App extends React.Component {
         </Header>
         <Content>
           <Button full iconLeft success onPress={this.searchApi}>
-            <Icon name="logo-facebook" />
             <Text>Search Player</Text>
           </Button>
           <ScrollView>
